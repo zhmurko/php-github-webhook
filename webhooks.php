@@ -2,7 +2,7 @@
 $secret_key = 's0me_s3cret_4ey';
 $app_folder = '/var/www/html/app';
 $log_file   = $app_folder.'/githook.log';
-$path_export='export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin &&'
+$path_export='export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin &&';
 $bash_script=$path_export." cd $app_folder && git pull ";
 
 
